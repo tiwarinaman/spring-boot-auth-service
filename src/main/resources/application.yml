@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/jwt_security
+    username: root
+    password: Naman@123
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    database: mysql
